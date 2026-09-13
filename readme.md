@@ -17,11 +17,13 @@ gcc calc.c -o calc
 ```
 
 ## Example
+```
 Calculator
 Enter first number: 10
 Enter operator (+, -, *, /): /
 Enter second number: 4
 10 / 4 = 2.50
+```
 
 
 ## What I learned
