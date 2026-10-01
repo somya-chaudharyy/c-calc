@@ -12,9 +12,8 @@ int main() {
     scanf("%lf", &num2);
 
     /* checking float or int 
-       If user has entered integers, if statement will be true, else it will be false.
-       Since our calculator has a precision of 2 decimal places, we will check for decimal upto 3 digit */
-    if (((long long)(num1 * 1000)) % 1000 == 0 && ((long long)(num2 * 1000)) % 1000 == 0) {
+       If user has entered integers, if statement will be true, else it will be false. */
+    if (((num1 == (long long)num1) && (num2 == (long long)num2))) {
         long long intNum1 = (long long)num1;
         long long intNum2 = (long long)num2;
         // Perform integer operations
